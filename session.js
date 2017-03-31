@@ -1,10 +1,10 @@
 /**
- * session.js 0.4.1
- * (c) 2012 Iain, CodeJoust
+ * session.js 0.4.1 - Financeit Fork
+ * Originally written by: (c) 2012 Iain, CodeJoust
  * session.js is freely distributable under the MIT license.
- * Portions of session.js are inspired or borrowed from Underscore.js, and quirksmode.org demo javascript.
  * This version uses google's jsapi library for location services.
- * For details, see: https://github.com/codejoust/session.js
+ * For the original session.js, see: https://github.com/codejoust/session.js
+ * For the fork, please see https://github.com/financeit/session.js
  */
 var session_fetch = (function(win, doc, nav){
   'use strict';
