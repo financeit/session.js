@@ -1,4 +1,4 @@
-Session.js
+Session.js - FINANCEIT FORK
 ==
 
 Gives information about the current session.
@@ -6,6 +6,11 @@ Gives information about the current session.
 To use: include the file session.js, then access the visitor object.
 It uses the google javascript loader to get location data.
 For async loading, use the window.session_loaded callback.
+
+* Originally written by: (c) 2012 Iain, CodeJoust
+* For the original session.js, see: https://github.com/codejoust/session.js
+* For the fork, please see https://github.com/financeit/session.js
+
 
 [Live API Demo](http://go.iain.in/sessionjslivedemo01) | [Example Usage Page](http://go.iain.in/sessionjslivedemo02)
 
@@ -43,12 +48,12 @@ Quick Example:
 
 #### Other Source Options:
 Lock version to v0.4 (current stable):
-[uncompressed](http://codejoust.github.com/session.js/session-0.4.js), 
+[uncompressed](http://codejoust.github.com/session.js/session-0.4.js),
 [compressed](http://codejoust.github.com/session.js/session-0.4.min.js).
 
 Edge:
 [uncompressed](http://codejoust.github.com/session.js/session.js),
-[compressed](http://codejoust.github.com/session.js/session.min.js) 
+[compressed](http://codejoust.github.com/session.js/session.min.js)
 
 
 If used in the footer (before the `</body>` tag), you can use the `window.session = {start: function(sess){ /* loaded session data */ }}` callback, before including the session.js. This is recommended when using session.js with location data.
